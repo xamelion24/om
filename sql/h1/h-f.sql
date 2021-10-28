@@ -59,4 +59,4 @@ select count(id) from students;
 --Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку возрастания даты добавления пользоватлеля.
 select id, name, created_on from students order by created_on;
 --Вывести id пользователя, имя, дату создания пользователя. Отсортировать по порядку убывания даты добавления пользоватлеля.
-select id, name, created_on from students order by created_on desc;
+select id, name, created_on from students order by created_on desc
