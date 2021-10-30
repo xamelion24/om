@@ -10,6 +10,7 @@ CREATE TABLE roles_employee
 		references roles (id)
 );
 
+
 --заполнение таблицы
 insert into roles_employee (id, employee_id, role_id) values (default, 1, 1)
 
@@ -19,3 +20,4 @@ select * from salary;
 select * from employee_salary;
 select * from roles;
 select * from roles_employee;
+
