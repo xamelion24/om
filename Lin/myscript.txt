@@ -1,0 +1,9 @@
+#!/bin/bash
+cd sc
+mkdir test1 test2 test3
+cd test2
+touch a.txt ab.txt abc.txt gg.json jj.json
+mkdir tesst1 tesst2 tesst3
+echo * .*
+ls -la
+mv a.txt ab.txt tesst3/
